@@ -79,7 +79,7 @@ namespace DangKy_FirebaseDB
         {
             QuenMatKhau qmk = new QuenMatKhau();
             qmk.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         private void bt_hide_Click(object sender, EventArgs e)

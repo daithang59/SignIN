@@ -38,7 +38,7 @@ namespace DangKy_FirebaseDB
         }
         public bool checkEmail(string em)
         {
-            return Regex.IsMatch(em, @"^[\w.]{3,20}@gmail.com(.vn|)$");
+            return Regex.IsMatch(em, @"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$");
         }
         private async void bt_registry_Click(object sender, EventArgs e)
         {
